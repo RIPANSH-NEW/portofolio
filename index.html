@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#landing">Home</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Landing Page -->
+    <section id="landing">
+        <div class="landing-content">
+            <h1>Selamat Datang di Portofolio Saya</h1>
+            <p>SA-MP Developer</p>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section id="profile">
+        <div class="container">
+            <h2 class="section-title">Profile</h2>
+            <div class="profile-content">
+                <img src="img/profile.jpg" alt="Profile Photo" class="profile-img">
+                <div class="profile-text">
+                    <h2>Tentang Saya</h2>
+                    <p>Hallo! saya adalah sorang developer Website sekaligus developer SA-MP. Saya memiliki banyak pengalaman terutama di SA-MP. Saya menguasai beberapa bahsa pemrograman seperti HTML &  CSS, PAWNO, C, dan JavaScript.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            
+            <!-- Project SAMP -->
+            <div class="project-category">
+                <h3>Project SAMP</h3>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <img src="img/artapura.jpg" alt="SAMP Project 1" class="project-img">
+                        <div class="project-info">
+                            <h4>Artapura Roleplay</h4>
+                            <p>Pembuatan script fitur, fix bug, dan pengawasan.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="img/veracity.jpg" alt="SAMP Project 2" class="project-img">
+                        <div class="project-info">
+                            <h4>Veracity Roleplay</h4>
+                            <p>Pembuatan script fitur, fix bug, dan pengawasan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Website -->
+            <div class="project-category">
+                <h3>Project Website</h3>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <img src="img/web-artapura.png" alt="Web Project 1" class="project-img">
+                        <div class="project-info">
+                            <h4>User Control Panel (UCP) SAA-MP</h4>
+                            <p>Website SA-MP untuk pendaftaran UCP, Pembuatan karakter, serta dan adminn panel.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>HTML & CSS</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>JavaScript</span>
+                        <span>65%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 65%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>PAWN (SAMP)</span>
+                        <span>96%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 96%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>PHP & MySQL</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>C</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <h4>WhatsApp</h4>
+                    <a href="https://wa.me/6285129992576">+62 851-2999-2576</a>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📷</div>
+                    <h4>Instagram</h4>
+                    <a href="https://instagram.com/rfaa_.ripansyh">@rfaa_.ripansyh</a>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">✉️</div>
+                    <h4>Email</h4>
+                    <a href="rafaripansyah47@gmail.com">rafaripansyah47@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Portofolio Saya. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                const offset = 70;
+                const bodyRect = document.body.getBoundingClientRect().top;
+                const elementRect = target.getBoundingClientRect().top;
+                const elementPosition = elementRect - bodyRect;
+                const offsetPosition = elementPosition - offset;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Skill bar animation on scroll
+        const observerOptions = {
+            threshold: 0.5
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const skillBars = entry.target.querySelectorAll('.skill-progress');
+                    skillBars.forEach(bar => {
+                        bar.style.width = bar.style.width;
+                    });
+                }
+            });
+        }, observerOptions);
+
+        const skillsSection = document.querySelector('#skills');
+        observer.observe(skillsSection);
+    </script>
+</body>
+</html>
